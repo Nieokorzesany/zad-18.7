@@ -1,8 +1,8 @@
-var Contact = React.createClass({
-  propTypes: {
-    item: React.PropTypes.object.isRequired
-  },
-  render: function() {
+class Contact extends React.Component {
+  // propTypes: {
+  //   item: React.PropTypes.object.isRequired
+  //  };
+  render() {
     return (
       <div className={"contactItem"}>
         <img
@@ -17,4 +17,4 @@ var Contact = React.createClass({
       </div>
     );
   }
-});
+}

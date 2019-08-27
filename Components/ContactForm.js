@@ -1,8 +1,8 @@
-var ContactForm = React.createClass({
-  propTypes: {
-    contact: React.PropTypes.object.isRequired
-  },
-  render: function() {
+class ContactForm extends React.Component {
+  //propTypes: {
+  //   contact: React.PropTypes.object.isRequired
+  // },
+  render() {
     return (
       <form className={"contactForm"}>
         <input
@@ -24,4 +24,4 @@ var ContactForm = React.createClass({
       </form>
     );
   }
-});
+}
